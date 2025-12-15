@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio CMS Mock — Yaren Dilara Çiftçi</title>
+    <link href="../styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="../index.html" class="brand">Yaren Dilara</a>
+        <div id="nav-right"></div>
+      </nav>
+    </header>
+    <main class="container">
+      <article class="project-detail">
+        <h1 class="hero-title">Portfolio CMS Mock</h1>
+        <p class="hero-sub">Design-focused front-end prototype for an authoring and presentation system: editorial grids, accessible forms, and typography-first layouts.</p>
+        <div class="project-meta-box">
+          <h4>Project Details</h4>
+          <dl>
+            <dt>Tech stack</dt>
+            <dd>HTML, CSS, Accessibility</dd>
+            <dt>Date</dt>
+            <dd>2024</dd>
+            <dt>Repository</dt>
+            <dd><a class="repo-link" href="https://github.com/your-username/portfolio-cms-mock" target="_blank" rel="noopener noreferrer">Open repository</a></dd>
+          </dl>
+        </div>
+        <img class="project-main-img" src="../assets/cms-mock.svg" alt="Portfolio CMS Mock layout"/>
+        <section class="project-body">
+          <h2 class="section-title">About this project</h2>
+          <p>The mock explores editorial layouts optimized for writing and showcasing projects. The emphasis is on readable type hierarchy and a clear typographic rhythm that adapts to screens.</p>
+          <h3>Highlights</h3>
+          <ul>
+            <li>Editorial page layouts for long-form content</li>
+            <li>Accessible design patterns for forms and content</li>
+            <li>Focus on typographic scale and whitespace</li>
+          </ul>
+          <p class="muted">Tools & References: HTML, CSS, Figma</p>
+        </section>
+        <section class="project-gallery-grid">
+          <img class="project-thumb" data-full="../assets/cms-mock-2.svg" src="../assets/cms-mock-2.svg" alt="CMS editor thumbnail"/>
+        </section>
+        <!-- Image modal -->
+        <div id="image-modal" class="image-modal-backdrop" tabindex="-1">
+          <div class="image-modal">
+            <button class="close" id="image-modal-close" aria-label="Close">&times;</button>
+            <img id="image-modal-img" src="" alt="" />
+          </div>
+        </div>
+        <p class="form-actions"><a href="../index.html#projects" class="button">Back to Projects</a></p>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <p>© 2025 Yaren Dilara Çiftçi</p>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE3ED" offset="0%"/>
+      <stop stop-color="#F9C4D8" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="560" rx="32" fill="url(#g1)"/>
+  <g stroke="#E05A7B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+    <rect x="120" y="120" width="200" height="120" rx="14" fill="#fff" opacity="0.9"/>
+    <rect x="360" y="220" width="200" height="120" rx="14" fill="#fff" opacity="0.9"/>
+    <rect x="600" y="140" width="180" height="120" rx="14" fill="#fff" opacity="0.9"/>
+    <path d="M320 170 C360 190 360 250 400 270"/>
+    <path d="M560 250 C600 230 640 220 680 200"/>
+    <path d="M320 200 C360 210 360 240 400 250" stroke-dasharray="6 6"/>
+  </g>
+  <text x="150" y="185" fill="#E05A7B" font-family="DM Sans, Arial, sans-serif" font-size="24" font-weight="700">User</text>
+  <text x="635" y="205" fill="#E05A7B" font-family="DM Sans, Arial, sans-serif" font-size="24" font-weight="700">Items</text>
+  <text x="392" y="295" fill="#E05A7B" font-family="DM Sans, Arial, sans-serif" font-size="24" font-weight="700">Similarities</text>
+  <text x="120" y="500" fill="#C74A6A" font-family="Nunito, Arial, sans-serif" font-size="32" font-weight="800">Recommendation Model</text>
+</svg>

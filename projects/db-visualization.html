@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Database Visualization — Yaren Dilara Çiftçi</title>
+    <link href="../styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="../index.html" class="brand">Yaren Dilara</a>
+        <div id="nav-right"></div>
+      </nav>
+    </header>
+    <main class="container">
+      <article class="project-detail">
+        <h1 class="hero-title">Database Visualization</h1>
+        <p class="hero-sub">An interactive visualization focusing on schema relationships and readability, aimed at helping students and curious developers understand database design.</p>
+        <div class="project-meta-box">
+          <h4>Project Details</h4>
+          <dl>
+            <dt>Tech stack</dt>
+            <dd>D3, HTML, CSS</dd>
+            <dt>Date</dt>
+            <dd>2024</dd>
+            <dt>Repository</dt>
+            <dd><a class="repo-link" href="https://github.com/your-username/db-visualization" target="_blank" rel="noopener noreferrer">Open repository</a></dd>
+          </dl>
+        </div>
+        <img class="project-main-img" src="../assets/db-vis.svg" alt="DB schema visualization"/>
+        <section class="project-body">
+          <h2 class="section-title">About this project</h2>
+          <p>This visualization aims to simplify relational database layouts, demonstrating table structures and relationships in a clear, interactive way. It highlights common patterns like one-to-many and many-to-many.</p>
+          <h3>Highlights</h3>
+          <ul>
+            <li>Clear schema diagrams with approachable visual language</li>
+            <li>Interactive annotations to explain relationships</li>
+            <li>Design oriented towards education and documentation</li>
+          </ul>
+          <p class="muted">Tools & Prototype: D3, HTML, CSS</p>
+        </section>
+        <section class="project-gallery-grid">
+          <img class="project-thumb" data-full="../assets/db-vis-2.svg" src="../assets/db-vis-2.svg" alt="DB relationships thumbnail"/>
+        </section>
+        <!-- Image modal -->
+        <div id="image-modal" class="image-modal-backdrop" tabindex="-1">
+          <div class="image-modal">
+            <button class="close" id="image-modal-close" aria-label="Close">&times;</button>
+            <img id="image-modal-img" src="" alt="" />
+          </div>
+        </div>
+        <p class="form-actions"><a href="../index.html#projects" class="button">Back to Projects</a></p>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <p>© 2025 Yaren Dilara Çiftçi</p>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+  </html>

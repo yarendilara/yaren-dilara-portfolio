@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yaren Dilara Çiftçi — Portfolio</title>
+    <meta name="description" content="Yaren Dilara Çiftçi — personal portfolio for projects and notes on AI, databases, and web development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="index.html" class="brand">Yaren Dilara</a>
+        <div class="nav-center">
+          <span class="nav-hearts">♡ ♡ ♡</span>
+        </div>
+        <div id="nav-right"></div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <h1 class="hero-title" data-i18n="hero.title">Yaren Dilara Çiftçi</h1>
+            <p class="hero-sub" data-i18n="hero.subtitle">Studying IT (AI & Database) at VIZJA University — exploring software, AI, databases, and creative web development. This is where I share my projects and learning journey.</p>
+            <p class="cta"><button id="explore-btn" class="button" data-i18n="buttons.explore">Explore Projects</button></p>
+          </div>
+          <div class="hero-photo" id="hero-photo">
+            <img id="hero-photo-img" src="" alt="Profile photo" />
+            <div id="hero-initials" class="hero-initials">YD</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2 class="section-title" data-i18n="sections.projects">Projects</h2>
+        <div id="projects-grid" class="projects-grid"></div>
+      </section>
+
+      <!-- Contact section has been moved into a floating button + modal to keep the layout clean. -->
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footer.copy">© 2025 Yaren Dilara Çiftçi — Built with care</p>
+    </footer>
+
+    <!-- Floating Contact button -->
+    <button id="contact-open" class="contact-fab" data-i18n="contact.open">Contact</button>
+
+    <!-- Modal -->
+    <div id="contact-modal" class="modal-backdrop" tabindex="-1">
+      <div class="modal" role="dialog" aria-modal="true">
+        <button id="contact-close" class="close" aria-label="Close">&times;</button>
+        <h2 data-i18n="contact.title">Contact</h2>
+        <p class="contact-note" data-i18n="contact.note">Have a question or want to collaborate? Send me a message — I will reply by email.</p>
+        <form id="contact-modal-form" class="contact-form">
+          <label class="form-field">
+            <span data-i18n="contact.email">Email</span>
+            <input type="email" id="modal-email" name="email" placeholder="your@email.com" required>
+          </label>
+          <label class="form-field">
+            <span data-i18n="contact.message">Message</span>
+            <textarea id="modal-message" name="message" rows="6" placeholder="Hi Yaren — I loved your project about..." required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="button button-primary" data-i18n="contact.send">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>

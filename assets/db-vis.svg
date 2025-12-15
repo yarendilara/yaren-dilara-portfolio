@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" fill="none">
+  <rect width="900" height="560" rx="32" fill="#FFF3F7"/>
+  <g stroke="#F05A7B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <rect x="180" y="150" width="160" height="110" rx="14" fill="#fff"/>
+    <rect x="420" y="130" width="160" height="110" rx="14" fill="#fff"/>
+    <rect x="420" y="310" width="160" height="110" rx="14" fill="#fff"/>
+    <rect x="660" y="190" width="140" height="110" rx="14" fill="#fff"/>
+    <path d="M340 180 L420 190"/>
+    <path d="M340 220 L420 230"/>
+    <path d="M580 180 L660 220"/>
+    <path d="M500 240 L500 310"/>
+  </g>
+  <text x="200" y="210" fill="#D74F75" font-family="DM Sans, Arial, sans-serif" font-size="18" font-weight="700">Users</text>
+  <text x="440" y="195" fill="#D74F75" font-family="DM Sans, Arial, sans-serif" font-size="18" font-weight="700">Orders</text>
+  <text x="440" y="375" fill="#D74F75" font-family="DM Sans, Arial, sans-serif" font-size="18" font-weight="700">Lines</text>
+  <text x="680" y="250" fill="#D74F75" font-family="DM Sans, Arial, sans-serif" font-size="18" font-weight="700">Products</text>
+  <text x="120" y="500" fill="#C74A6A" font-family="Nunito, Arial, sans-serif" font-size="32" font-weight="800">Database Visualization</text>
+</svg>

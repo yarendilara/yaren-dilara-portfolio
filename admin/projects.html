@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin — Projects</title>
+    <link href="../styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="../index.html" class="brand">Yaren Dilara</a>
+        <div id="nav-right"></div>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="hero-title">Admin — Projects</h1>
+      <section class="admin-section">
+        <form id="admin-project-form" style="max-width:800px;">
+          <input type="hidden" name="id">
+          <label class="form-field"><span>Title</span><input name="title" required></label>
+          <label class="form-field"><span>Description</span><textarea name="desc" rows="4"></textarea></label>
+          <label class="form-field"><span>Stack</span><input name="stack"></label>
+          <label class="form-field"><span>Date</span><input name="date"></label>
+          <label class="form-field"><span>Project URL</span><input name="url"></label>
+          <label class="form-field"><span>Thumbnail</span><input name="thumb" placeholder="assets/rec-model.svg"></label>
+          <label class="form-field"><span>Upload photos</span>
+            <input id="admin-photos" name="photos" type="file" accept="image/*" multiple>
+          </label>
+          <div id="photo-previews" class="photo-previews" aria-live="polite"></div>
+          <label class="form-field"><span>Repository</span><input name="repo"></label>
+          <div class="form-actions"><button class="button button-primary" type="submit">Save Project</button></div>
+        </form>
+      </section>
+      <section class="admin-section" style="margin-top:24px;">
+        <h3>Existing projects</h3>
+        <div id="admin-project-list"></div>
+      </section>
+    </main>
+    <script src="../script.js"></script>
+  </body>
+  </html>
